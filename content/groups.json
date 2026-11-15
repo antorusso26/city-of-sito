@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "amalfi-coast-complete",
+    "name": "Amalfi Coast, complete",
+    "summary": "Sorrento, Positano, Amalfi and Capri in one trip. Switch towns on or off, pick what to do in each, and we send back one price.",
+    "cities": [
+      "sorrento",
+      "positano",
+      "amalfi",
+      "capri"
+    ],
+    "days": "5–7 days"
+  },
+  {
+    "slug": "sorrento-and-capri",
+    "name": "Sorrento and Capri",
+    "summary": "A base in Sorrento and a day on the island.",
+    "cities": [
+      "sorrento",
+      "capri"
+    ],
+    "days": "3–4 days"
+  },
+  {
+    "slug": "the-coast-road",
+    "name": "The coast road",
+    "summary": "Positano and Amalfi, with a driver for Ravello.",
+    "cities": [
+      "positano",
+      "amalfi"
+    ],
+    "days": "3–4 days"
+  }
+]

@@ -1,0 +1,8 @@
+Timone 3D: la stessa geometria del logo, con spessore e bordi morbidi.
+
+*-3d-calce.png / *-3d-abisso.png   sfondo trasparente (1400 px)
+*-su-abisso.png / *-su-calce.png   già appoggiati sul colore del brand, con ombra
+
+Uso: hero del sito, copertine di pitch, annunci, storie. Mai al posto del logo:
+il logo resta piatto (cartella 01-logo). Il 3D è un'illustrazione del brand.
+Non ricolorare e non aggiungere effetti; la maniglia gialla accesa è solo per Sorrento.

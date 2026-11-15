@@ -1,0 +1,155 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-13T10:35:00Z"
+ },
+ "title": "City Of — Brand identity v3",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 800,
+   "title": "Concept"
+  },
+  "Strategia.dc.html": {
+   "x": 1360,
+   "y": 0,
+   "w": 1280,
+   "h": 800,
+   "title": "07 · Strategia"
+  },
+  "Voce.dc.html": {
+   "x": 2720,
+   "y": 0,
+   "w": 1280,
+   "h": 800,
+   "title": "08 · Voce e nome"
+  },
+  "Logo-Master.dc.html": {
+   "x": 0,
+   "y": 1180,
+   "w": 1280,
+   "h": 800,
+   "title": "01 · Marchio madre"
+  },
+  "Logo-Sorrento.dc.html": {
+   "x": 1360,
+   "y": 1180,
+   "w": 1280,
+   "h": 800,
+   "title": "02 · City of Sorrento · sigillo"
+  },
+  "Sistema-Citta.dc.html": {
+   "x": 2720,
+   "y": 1180,
+   "w": 1280,
+   "h": 800,
+   "title": "03 · Sistema città"
+  },
+  "Test.dc.html": {
+   "x": 4080,
+   "y": 1180,
+   "w": 1280,
+   "h": 800,
+   "title": "04 · Prove e regole"
+  },
+  "Colori-Font.dc.html": {
+   "x": 0,
+   "y": 2360,
+   "w": 1280,
+   "h": 800,
+   "title": "05 · Colore e caratteri"
+  },
+  "Tre-D.dc.html": {
+   "x": 1360,
+   "y": 2360,
+   "w": 1280,
+   "h": 800,
+   "title": "09 · 3D e movimento"
+  },
+  "Kit.dc.html": {
+   "x": 2720,
+   "y": 2360,
+   "w": 1280,
+   "h": 800,
+   "title": "10 · Brand kit"
+  },
+  "Intro-Animazione.dc.html": {
+   "x": 0,
+   "y": 3540,
+   "w": 1440,
+   "h": 900,
+   "title": "Intro per il web · la C diventa O",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Home-Timone.dc.html": {
+   "x": 1520,
+   "y": 3540,
+   "w": 1440,
+   "h": 900,
+   "title": "Home City Of · timone interattivo",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Mockup.dc.html": {
+   "x": 3040,
+   "y": 3540,
+   "w": 1440,
+   "h": 1180,
+   "title": "11 · In uso"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "Strategia.dc.html",
+  "Voce.dc.html",
+  "Logo-Master.dc.html",
+  "Logo-Sorrento.dc.html",
+  "Sistema-Citta.dc.html",
+  "Test.dc.html",
+  "Colori-Font.dc.html",
+  "Tre-D.dc.html",
+  "Kit.dc.html",
+  "Intro-Animazione.dc.html",
+  "Home-Timone.dc.html",
+  "Mockup.dc.html"
+ ],
+ "notes": {
+  "t1": {
+   "x": 0,
+   "y": -300,
+   "text": "City Of · Chi siamo",
+   "kind": "title1",
+   "maxW": 4000
+  },
+  "t2": {
+   "x": 0,
+   "y": 880,
+   "text": "Logo",
+   "kind": "title1",
+   "maxW": 5360
+  },
+  "t3": {
+   "x": 0,
+   "y": 2060,
+   "text": "Colore, 3D e kit",
+   "kind": "title1",
+   "maxW": 4000
+  },
+  "t4": {
+   "x": 0,
+   "y": 3240,
+   "text": "In uso · prova a girare il timone",
+   "kind": "title1",
+   "maxW": 4480
+  }
+ },
+ "designSystems": []
+}

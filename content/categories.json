@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "boat-tours",
+    "name": "Boat tours",
+    "singular": "boat tour",
+    "intro": "Private boats and small shared boats to Capri and along the Amalfi Coast. Fuel, skipper and what is on board are stated in the price."
+  },
+  {
+    "slug": "cooking-classes",
+    "name": "Cooking classes",
+    "singular": "cooking class",
+    "intro": "Cook with a local family or chef, then sit down and eat what you made."
+  },
+  {
+    "slug": "transfers",
+    "name": "Transfers",
+    "singular": "transfer",
+    "intro": "Private cars from Naples airport, the station and along the coast. Fixed price, agreed before you travel."
+  },
+  {
+    "slug": "food",
+    "name": "Food and wine",
+    "singular": "food experience",
+    "intro": "Lemon groves, long lunches and tables we book for you. The menu and the price are agreed before."
+  },
+  {
+    "slug": "walks",
+    "name": "Walks and day trips",
+    "singular": "walk",
+    "intro": "On foot with someone from here, or with a driver for the places the bus does not reach."
+  }
+]

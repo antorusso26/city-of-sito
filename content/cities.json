@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "sorrento",
+    "name": "Sorrento",
+    "status": "live",
+    "coordinates": "40°37′N · 14°22′E",
+    "tagline": "The coast, the way we grew up seeing it.",
+    "headline": "<em>Sorrento</em>, the way we grew up seeing it.",
+    "intro": "Lemon groves above the town, Piazza Tasso at night, a swim at Regina Giovanna. Everything here starts from the people who live in it.",
+    "card": "Boats to Capri and the Amalfi Coast, cooking classes, transfers.",
+    "accent": "#F2B705",
+    "helmSlot": 0,
+    "hero": "/photos/hero_sorrento.jpg",
+    "heroAlt": "Sorrento and its harbour seen from the cliffs",
+    "near": [
+      "capri",
+      "positano"
+    ]
+  },
+  {
+    "slug": "positano",
+    "name": "Positano",
+    "status": "live",
+    "coordinates": "40°38′N · 14°29′E",
+    "tagline": "Positano, from the path, the table and the sea.",
+    "headline": "<em>Positano</em>, from the path, the table and the sea.",
+    "intro": "Walk down from Nocelle, eat above the bay, see the town from the water. Booked through one person.",
+    "card": "Li Galli by boat, the Path of the Gods, dinner above the bay.",
+    "accent": "#E0528A",
+    "helmSlot": 1,
+    "hero": "/photos/hero_positano.jpg",
+    "heroAlt": "Positano, houses stacked above the beach",
+    "near": [
+      "amalfi",
+      "sorrento",
+      "capri"
+    ]
+  },
+  {
+    "slug": "amalfi",
+    "name": "Amalfi",
+    "status": "live",
+    "coordinates": "40°38′N · 14°36′E",
+    "tagline": "Amalfi, from the side the road doesn’t show.",
+    "headline": "<em>Amalfi</em>, from the side the road doesn’t show.",
+    "intro": "Ravello’s gardens, lunch in Atrani, the Furore fjord from a boat. A driver, a table, a skipper: we book them.",
+    "card": "Ravello's gardens, lunch in Atrani, the Furore fjord.",
+    "accent": "#17A68F",
+    "helmSlot": 2,
+    "hero": "/photos/hero_amalfi.jpg",
+    "heroAlt": "Amalfi from the sea, the town and the harbour",
+    "near": [
+      "positano",
+      "sorrento"
+    ]
+  },
+  {
+    "slug": "capri",
+    "name": "Capri",
+    "status": "live",
+    "coordinates": "40°33′N · 14°14′E",
+    "tagline": "Capri, after the day-trippers leave.",
+    "headline": "<em>Capri</em>, after the day-trippers leave.",
+    "intro": "Monte Solaro in the morning, Anacapri’s streets at lunch, the Faraglioni from the water. We plan the day around the ferries.",
+    "card": "Monte Solaro, Anacapri, the Faraglioni from the water.",
+    "accent": "#3AA3E8",
+    "helmSlot": 3,
+    "hero": "/photos/hero_capri.jpg",
+    "heroAlt": "The Faraglioni arch at Capri with a small boat",
+    "near": [
+      "sorrento",
+      "positano"
+    ]
+  },
+  {
+    "slug": "procida",
+    "name": "Procida",
+    "status": "soon",
+    "card": "On the chart.",
+    "accent": "#F2805C",
+    "helmSlot": 4
+  },
+  {
+    "slug": "ischia",
+    "name": "Ischia",
+    "status": "soon",
+    "card": "On the chart.",
+    "accent": "#A7B4BC",
+    "helmSlot": 5
+  }
+]

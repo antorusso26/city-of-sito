@@ -1,0 +1,8 @@
+Due famiglie, entrambe con licenza libera SIL OFL (uso commerciale consentito).
+
+Instrument Serif — titoli e nomi delle città (il corsivo è riservato ai nomi delle città).
+Archivo — testi, interfaccia, prezzi. Per le etichette: larghezza Expanded (125), peso 600, maiuscolo, spaziatura +14%.
+
+Sul web: usa l'@import in 03-colori/colors.css (Google Fonts).
+In Keynote, PowerPoint, Canva, Figma: installa i file .ttf di questa cartella.
+I file Archivo-Regular / SemiBold / Expanded* sono tagli statici ricavati dal font variabile, comodi dove i font variabili non sono supportati.

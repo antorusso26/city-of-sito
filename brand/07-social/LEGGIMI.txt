@@ -1,0 +1,7 @@
+avatar-*           foto profilo (il cerchio lo ritaglia la piattaforma)
+og-*-1200x630      anteprima dei link (Open Graph / WhatsApp / LinkedIn)
+post-1080-sfondo   base per post e annunci quadrati: aggiungi etichetta (Archivo Expanded), titolo (Instrument Serif) e bottone
+storia-*-sfondo    base per storie e reel
+*-esempio          come appare con i testi. [PREZZO] è un segnaposto.
+
+Regola: un solo messaggio per creatività. Etichetta in giallo Limone, titolo in Calce, prezzo detto subito.

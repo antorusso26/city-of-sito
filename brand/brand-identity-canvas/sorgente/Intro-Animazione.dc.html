@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>City Of — Intro animata</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1D5C78}a:hover{color:#0B2233}
+</style>
+</helmet>
+<div style="min-height: 900px; box-sizing: border-box; background: #0B2233; color: #F5F3EE; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; box-sizing: border-box; min-height: 900px; display: flex; flex-direction: column">
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 28px 0">
+<div style="font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-stretch: 125%; font-weight: 600; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #AEB8BE">Intro del sito · 3 secondi</div>
+<button type="button" onClick="{{replay}}" style="display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #3A4E5D; background: transparent; color: #F5F3EE; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; cursor: pointer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px"><path d="M4 12a8 8 0 1 0 2.3-5.6M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Rivedi</button>
+</header>
+<section style="flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 64px; padding: 40px 0 120px">
+<div style="width: 100%; display: flex; justify-content: center; padding: 0 24px; box-sizing: border-box"><svg viewBox="-10 -30 568 154" role="img" aria-label="City Of" style="display: block; width: 100%; max-width: 860px; height: auto; overflow: visible"><path d="M90.64 15.21A52 52 0 1 0 90.64 84.79L80.24 75.43A38 38 0 1 1 80.24 24.57Z" fill="#F5F3EE" style="opacity: {{lo}}; transform: translateY({{ly}}px); transition: {{lt0}}"/><path d="M106 0h14v100h-14Z" fill="#F5F3EE" style="opacity: {{lo}}; transform: translateY({{ly}}px); transition: {{lt1}}"/><path d="M136 0h72v13h-72ZM165 0h14v100h-14Z" fill="#F5F3EE" style="opacity: {{lo}}; transform: translateY({{ly}}px); transition: {{lt2}}"/><path d="M218 0L235.2 0L266.6 43.96L298 0L315.2 0L273.6 58.24L273.6 100L259.6 100L259.6 58.24Z" fill="#F5F3EE" style="opacity: {{lo}}; transform: translateY({{ly}}px); transition: {{lt3}}"/><path d="M478 0h14v100h-14ZM478 0h70v13h-70ZM478 43.5h58v13h-58Z" fill="#F5F3EE" style="opacity: {{lo}}; transform: translateY({{ly}}px); transition: {{lt4}}"/><g transform="translate(402 50)"><g style="transform: translate({{hx}}px, {{hy}}px) rotate({{hr}}deg) scale({{hs}}); transform-origin: 0px 0px; transition: {{helmT}}"><circle cx="0" cy="0" r="45" fill="none" stroke="#F5F3EE" stroke-width="14" pathLength="360" style="stroke-dasharray: {{dash}}; stroke-dashoffset: {{dashOff}}; transition: {{rimT}}"/><line x1="0" y1="0" x2="0" y2="-45" stroke="#F5F3EE" stroke-width="6.5"/><line x1="0" y1="0" x2="38.97" y2="-22.5" stroke="#F5F3EE" stroke-width="6.5" style="opacity: {{miss}}; transition: opacity 500ms ease 900ms"/><line x1="0" y1="0" x2="38.97" y2="22.5" stroke="#F5F3EE" stroke-width="6.5"/><line x1="0" y1="0" x2="0" y2="45" stroke="#F5F3EE" stroke-width="6.5"/><line x1="0" y1="0" x2="-38.97" y2="22.5" stroke="#F5F3EE" stroke-width="6.5"/><line x1="0" y1="0" x2="-38.97" y2="-22.5" stroke="#F5F3EE" stroke-width="6.5"/><line x1="0" y1="-50" x2="0" y2="-59" stroke="#F5F3EE" stroke-width="10" stroke-linecap="round"/><line x1="43.3" y1="-25" x2="51.1" y2="-29.5" stroke="#F5F3EE" stroke-width="10" stroke-linecap="round" style="opacity: {{miss}}; transition: opacity 500ms ease 900ms"/><line x1="43.3" y1="25" x2="51.1" y2="29.5" stroke="#F5F3EE" stroke-width="10" stroke-linecap="round"/><line x1="0" y1="50" x2="0" y2="59" stroke="#F5F3EE" stroke-width="10" stroke-linecap="round"/><line x1="-43.3" y1="25" x2="-51.1" y2="29.5" stroke="#F5F3EE" stroke-width="10" stroke-linecap="round"/><line x1="-43.3" y1="-25" x2="-51.1" y2="-29.5" stroke="#F5F3EE" stroke-width="10" stroke-linecap="round"/><circle cx="0" cy="0" r="10.5" fill="#F5F3EE"/></g></g></svg></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 22px; opacity: {{to}}; transform: translateY({{ty}}px); transition: {{tt}}">
+<p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 40px; line-height: 1.1; color: #F5F3EE; text-align: center">Turn the helm. Choose your coast.</p>
+<a href="Home-Timone.dc.html" style="background: #F5F3EE; color: #0B2233; text-decoration: none; font-weight: 600; font-size: 16px; padding: 16px 26px; border-radius: 999px">Choose a city</a>
+</div>
+</section>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview": {"width": 1440, "height": 900}}'>
+class Component extends DCLogic {
+  constructor(...args) {
+    super(...args);
+    this.state = { step: 0 };
+    this.timers = [];
+  }
+  componentDidMount() { this.play(); }
+  componentWillUnmount() { this.clear(); }
+  clear() { this.timers.forEach((t) => clearTimeout(t)); this.timers = []; }
+  play() {
+    this.clear();
+    this.setState({ step: 0 });
+    const at = (ms, step) => this.timers.push(setTimeout(() => this.setState({ step }), ms));
+    at(700, 1);
+    at(1900, 2);
+    at(2900, 3);
+  }
+  renderVals() {
+    const s = this.state.step;
+    const moving = s >= 1;
+    const ease = 'cubic-bezier(.65,0,.2,1)';
+    const lt = (i) => s >= 2 ? `opacity 600ms ease ${i * 90}ms, transform 700ms ${ease} ${i * 90}ms` : 'none';
+    return {
+      hx: moving ? 0 : -128,
+      hy: moving ? 0 : -3,
+      hr: moving ? 0 : 30 - 360,
+      hs: moving ? 1 : 1.9,
+      helmT: moving ? `transform 1900ms ${ease}` : 'none',
+      dash: moving ? '360 0' : '276 84',
+      dashOff: moving ? 0 : -12,
+      rimT: moving ? 'stroke-dasharray 1100ms ease 500ms, stroke-dashoffset 1100ms ease 500ms' : 'none',
+      miss: moving ? 1 : 0,
+      lo: s >= 2 ? 1 : 0,
+      ly: s >= 2 ? 0 : 14,
+      lt0: lt(0), lt1: lt(1), lt2: lt(2), lt3: lt(3), lt4: lt(4),
+      to: s >= 3 ? 1 : 0,
+      ty: s >= 3 ? 0 : 12,
+      tt: s >= 3 ? 'opacity 700ms ease, transform 700ms ease' : 'none',
+      replay: () => this.play(),
+    };
+  }
+}
+</script>
+</body>
+</html>

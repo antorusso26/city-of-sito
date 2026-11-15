@@ -1,0 +1,9 @@
+Ogni nuova città ha lo stesso sigillo: cambiano nome, coordinate e colore della maniglia.
+
+1. Scegli un colore simbolo del luogo. Deve avere contrasto di almeno 3:1 su Abisso (#0B2233).
+2. Crea la sua tinta scura per i fondi chiari, con contrasto di almeno 3:1 su Calce (#F5F3EE).
+3. Prendi le coordinate del centro città (gradi e primi).
+4. Lancia strumenti/nuova_citta.py (istruzioni dentro il file).
+
+La cartella esempi/ contiene Positano, Capri, Amalfi e Procida come prove del sistema:
+colori e coordinate vanno confermati prima di usarli davvero.

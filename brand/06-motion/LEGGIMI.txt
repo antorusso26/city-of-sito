@@ -1,0 +1,9 @@
+cityof-intro-16x9.mp4    intro per sito e YouTube (1920x1080, 6 s)
+cityof-intro-1x1.mp4     feed social e annunci (1080x1080)
+cityof-intro-9x16.mp4    storie e reel (1080x1920)
+timone-loop-abisso.mp4   timone 3D che gira, loop continuo di 4 s su Abisso (720x720)
+timone-loop-trasparente.webm   lo stesso loop con sfondo trasparente (Chrome, Firefox, Edge; Safari non lo supporta: usa l'mp4)
+
+Regole di movimento: le cose girano, non scivolano. Passi di 60° (un raggio), circa 1,1 s,
+partenza decisa e arrivo morbido: cubic-bezier(.2,.75,.15,1).
+I video non hanno audio.

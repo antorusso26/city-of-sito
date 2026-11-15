@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+/* Stile del sito: un solo carattere (Bricolage Grotesque), titoli stretti e pesanti, colori pieni.
+   Riferimenti: bigstars.com per la home, sorrentoinsider.com per il catalogo. */
+@theme {
+  --color-abisso: #0b2233;
+  --color-blu: #1447e6;
+  --color-mare: #1447e6;
+  --color-crema: #f8f0e3;
+  --color-calce: #ffffff;
+  --color-nebbia: #f2f3f5;
+  --color-pietra: #5b6670;
+  --color-sabbia: #e4e1da;
+  --color-citta: var(--citta);
+  --color-citta-chiaro: var(--citta-su-chiaro);
+  --font-display: var(--font-bricolage), "Arial Narrow", Arial, sans-serif;
+  --font-text: var(--font-bricolage), "Helvetica Neue", Arial, sans-serif;
+  --radius-card: 16px;
+  --ease-giro: cubic-bezier(0.2, 0.75, 0.15, 1);
+}
+
+:root {
+  --citta: #f2b705;
+  --citta-su-chiaro: #8f6600;
+  --giro: 1100ms;
+}
+[data-city="sorrento"] { --citta: #f2b705; --citta-su-chiaro: #8f6600; }
+[data-city="positano"] { --citta: #e0528a; --citta-su-chiaro: #b23a68; }
+[data-city="capri"] { --citta: #3aa3e8; --citta-su-chiaro: #1f6fa8; }
+[data-city="amalfi"] { --citta: #17a68f; --citta-su-chiaro: #0f7565; }
+[data-city="procida"] { --citta: #f2805c; --citta-su-chiaro: #b4512f; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+
+/* Fuoco da tastiera ben visibile su ogni fondo. */
+:focus-visible { outline: 3px solid var(--color-blu); outline-offset: 3px; border-radius: 6px; }
+.bg-abisso :focus-visible, .bg-blu:focus-visible, footer :focus-visible { outline-color: #fff; }
+body {
+  font-family: var(--font-text);
+  color: var(--color-abisso);
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1, h2, .font-display {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -0.01em;
+}
+
+@layer components {
+  .label { font-weight: 700; font-size: 12px; line-height: 16px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .city-name { font-style: normal; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 999px; padding: 13px 22px; font-weight: 700; text-decoration: none; background: var(--color-abisso); color: #fff; }
+  .btn-city { background: var(--citta); color: var(--color-abisso); }
+  .btn-blu { background: var(--color-blu); color: #fff; }
+  .btn-ghost { background: transparent; color: var(--color-abisso); border: 1.5px solid var(--color-abisso); }
+  .wrap { width: 100%; max-width: 1240px; margin-inline: auto; padding-inline: 20px; }
+  .card { background: #fff; border: 1px solid var(--color-sabbia); border-radius: var(--radius-card); }
+
+  .prose { max-width: 68ch; }
+  .prose h2 { font-size: 40px; margin: 48px 0 16px; }
+  .prose h3 { font-weight: 700; font-size: 20px; line-height: 26px; margin: 32px 0 8px; }
+  .prose p, .prose ul, .prose ol { margin: 0 0 16px; }
+  .prose ul { list-style: disc; padding-left: 20px; }
+  .prose ol { list-style: decimal; padding-left: 20px; }
+  .prose a { color: var(--color-blu); text-decoration: underline; }
+  .prose table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 15px; }
+  .prose th, .prose td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--color-sabbia); vertical-align: top; }
+  .prose th { font-weight: 700; }
+
+  /* File di schede che scorre in orizzontale su telefono e diventa griglia su schermi larghi. */
+  .row-scroll { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; scrollbar-width: none; }
+  .row-scroll::-webkit-scrollbar { display: none; }
+  .row-scroll > * { scroll-snap-align: start; flex: 0 0 66%; }
+  @media (min-width: 640px) { .row-scroll > * { flex-basis: 38%; } }
+  @media (min-width: 1024px) { .row-scroll { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); overflow: visible; } }
+}
+
+@keyframes sali { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+.rise { animation: sali 600ms cubic-bezier(0.2, 0.75, 0.15, 1) both; }
+@keyframes dondola { 0%, 100% { transform: rotate(-12deg); } 50% { transform: rotate(-6deg); } }
+.sticker { animation: dondola 5s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rise, .sticker { animation: none; }
+  .sticker { transform: rotate(-12deg); }
+  * { transition-duration: 0ms !important; }
+}
