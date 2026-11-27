@@ -29,6 +29,7 @@ export function FloatingNav({ city, cityName }: { city?: string; cityName?: stri
           </div>
         </details>
         <Link href="/experiences">Experiences</Link>
+        <Link href="/#map">Map</Link>
         <Link href="/amalfi-coast#package">Package</Link>
       </div>
       <span className="co-nav-gap" />
@@ -42,6 +43,7 @@ export function FloatingNav({ city, cityName }: { city?: string; cityName?: stri
             <Link key={c.slug} href={paths.city(c.slug)} className="co-menu-city"><span className="co-drop-bar" style={{ background: c.accent }} />{c.name}</Link>
           ))}
           <Link href="/experiences">Experiences</Link>
+          <Link href="/#map">Map</Link>
           <Link href="/amalfi-coast#package">Package</Link>
           <Link href="/account">My bookings</Link>
         </div>

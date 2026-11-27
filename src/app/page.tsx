@@ -10,9 +10,10 @@ import { Footer } from "@/components/Footer";
 import { HelmScroll, type ScrollCity } from "@/components/scenic/HelmScroll";
 import { HeroReel } from "@/components/scenic/HeroReel";
 import { Reveal } from "@/components/scenic/Reveal";
+import { SeaMapSection } from "@/components/seamap/SeaMapSection";
 import { Trust } from "@/components/Trust";
 import { getCities, getLiveCities } from "@/lib/content";
-import { paths } from "@/lib/site";
+import { WHATSAPP_NUMBER, paths } from "@/lib/site";
 import "./home.css";
 
 export const metadata: Metadata = { alternates: { canonical: "/" } };
@@ -60,6 +61,8 @@ export default function Home() {
         </div>
 
         <HelmScroll cities={scroll} />
+
+        <SeaMapSection waNumber={WHATSAPP_NUMBER || undefined} />
 
         <section className="wrap sc-section" id="how">
           <Reveal><p className="co-eyebrow">How it works</p><h2 className="sc-big">Four steps, <em>one person.</em></h2></Reveal>
